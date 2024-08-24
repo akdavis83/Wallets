@@ -1,8 +1,8 @@
 const ethers = require('ethers')
 
-const privateKey = '0xfc16ba8bae3e8c6c453440cd7ab5beef0fe933861de04159c2ea68b1729dc9e6'
+const privateKey = '0x'
 const wallet = recoverWalletFromPrivateKey(privateKey)
-const toAddress = '0x7dD77eD9baCEF1d348898fDc22b9dA3334f4aF39'
+const toAddress = '0x'
 const etherValue = '0.01'
 
 function recoverWalletFromPrivateKey(privateKey) {
