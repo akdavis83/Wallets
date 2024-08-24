@@ -1,9 +1,9 @@
 const ethers = require('ethers')
-const provider = new ethers.InfuraProvider(network = 11155111, "7e5bb1725c8f4927ae03c9f8bfd80513");
-const privateKey = '0xfc16ba8bae3e8c6c453440cd7ab5beef0fe933861de04159c2ea68b1729dc9e6'
+const provider = new ethers.InfuraProvider(network = 11155111, "7e");
+const privateKey = '0x'
 const wallet = recoverWalletFromPrivateKey(privateKey, provider)
 provider.getBalance(wallet.address).then(a=>console.log((`address: ${wallet.address} balance: ${a}`)))
-const toAddress = '0xd694F3928A1B8a6e965A5fB54dcAD1e3FaE0aD48'
+const toAddress = '0x'
 const etherValue = '0.0056'
 console.log(wallet.address)
 async function signTransaction(wallet, toAddress, value) {
